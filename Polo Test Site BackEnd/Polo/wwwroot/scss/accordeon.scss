@@ -1,0 +1,298 @@
+@import "partials/header";
+@import "partials/variables";
+@import "partials/footer";
+
+header{
+  
+    a{
+        color:black !important;
+    }
+}
+main{
+    #accordion-title{
+    position: relative;
+        background:#f8f9fa;
+        height: 300px;
+        .title{
+            position: absolute;
+            left:40%;
+            top:35%;
+            h6{
+                font-size:13px;
+                color:#565656;
+            }
+            a{
+                color:#565656;
+                font-size:12px;
+                &:hover{
+                    text-decoration: none;
+                    color:#007bff;
+                }
+            }  
+            span{
+                color:#565656;
+                font-size:12px;
+            }
+        }
+    }
+    #accordion{
+        
+    .container{
+        .row{margin-top:20px;
+            .left-nav{
+                label{
+                    font-weight: 700;
+                    font-size:14px;
+                    text-transform: uppercase;
+                }
+                ul{padding:0px !important;
+                    li{
+                        list-style: none;
+                        a{
+                            color:#565656;
+                            font-size:14px;
+                            &:hover{
+                                text-decoration:none;
+                                color:#2250fc;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .accordions{
+                margin-bottom:70px;
+                .content{
+                    display:none;
+                    
+                    p{font-size:13.6px;
+                        font-weight: 400;
+                        color:#777;
+                        margin-left:10px;
+                    }
+                }
+                h6{
+                    user-select: none;
+                }
+              hr{
+                  margin-top:60px;
+              }
+                .default{
+                h4{
+                    font-size:$accor-h4-size;
+                    font-weight: $accor-h4-weight;
+                    color:$accor-h4-color;
+                }
+                h6{margin:10px;
+                    font-size:$accor-h6-size;
+                    color:$accor-h4-color;
+                    position: relative;
+                    cursor:pointer;
+                    span{
+                        position: absolute;
+                        right:4px;
+                        font-size:14px;
+                    
+                    }
+                }
+                
+                
+                .border{
+                    margin-top:16px;
+                    border-radius:4px;
+                }
+            
+                
+                }
+                .shadow-acc{margin-top:40px;
+                    h4{
+                        font-size:$accor-h4-size;
+                        font-weight: $accor-h4-weight;
+                        color:$accor-h4-color;
+                    }
+                    h6{margin:10px;
+                        font-size:$accor-h6-size;
+                        color:$accor-h4-color;
+                        position: relative;
+                        cursor:pointer;
+                        span{
+                            position: absolute;
+                            right:4px;
+                            font-size:14px;
+                        
+                        }
+                    }
+                   
+                    
+                    .border{
+                        margin-top:16px;
+                        border-radius:4px;
+                    }
+                
+                    
+                    }
+                    .with-icon{margin-top:40px;
+                        h4{
+                            font-size:$accor-h4-size;
+                            font-weight: $accor-h4-weight;
+                            color:$accor-h4-color;
+                        }
+                        h6{margin:10px;
+                            font-size:$accor-h6-size;
+                            color:$accor-h4-color;
+                            position: relative;
+                            cursor:pointer;
+                            span{
+                                position: absolute;
+                                right:4px;
+                                font-size:14px;
+                            
+                            }
+                        }
+                        
+                        .border{
+                            background:white;
+                            margin-top:16px;
+                            border-radius:4px;
+                        }
+                    
+                        
+                        }
+                        .simple{margin-top:40px;
+                            h4{
+                                font-size:$accor-h4-size;
+                                font-weight: $accor-h4-weight;
+                                color:$accor-h4-color;
+                            }
+                            h6{margin:10px;
+                                font-size:$accor-h6-size;
+                                color:$accor-h4-color;
+                                position: relative;
+                                cursor:pointer;
+                                span{
+                                    position: absolute;
+                                    right:4px;
+                                    font-size:14px;
+                                
+                                }
+                            }
+                            
+                            
+                            .border{
+                                margin-top:16px;
+                                border-radius:4px;
+                            }
+                        
+                            
+                            }
+                            .flat{margin-top: 40px;
+                                h4{
+                                    font-size:$accor-h4-size;
+                                    font-weight: $accor-h4-weight;
+                                    color:$accor-h4-color;
+                                }
+                                h6{
+                                    font-size:$accor-h6-size;
+                                    margin-bottom:20px;
+                                    color:$accor-h4-color;
+                                    position: relative;
+                                    cursor:pointer;
+                                    span{
+                                        position: absolute;
+                                        right:4px;
+                                        font-size:14px;
+                                    
+                                    }
+                                }
+                                
+                                
+                                .border{
+                                    margin-top:16px;
+                                    border-radius:4px;
+                                }
+                            
+                                
+                                }   
+                                .dark{margin-top:40px;
+                                    h4{
+                                        font-size:$accor-h4-size;
+                                        font-weight: $accor-h4-weight;
+                                        color:$accor-h4-color;
+                                    }
+                                    h6{margin:10px;
+                                        font-size:$accor-h6-size;
+                                        color:$accor-h4-color;
+                                        position: relative;
+                                        cursor:pointer;
+                                        color:#fff;
+                                        span{
+                                            position: absolute;
+                                            right:4px;
+                                            font-size:14px;
+                                        
+                                        }
+                                    }
+                                    .content{
+                                            
+                                            
+                                        p{
+                                            
+                                            color:white;
+                                            
+                                        }
+                                    }
+                                    
+                                    
+                                    .border{
+                                        background:#333;
+                                        margin-top:16px;
+                                        border-radius:4px;
+                                        
+                                    }
+                                
+                                    
+                                    }      
+                                    .with-theme{margin-top:40px;
+                                        h4{
+                                            font-size:$accor-h4-size;
+                                            font-weight: $accor-h4-weight;
+                                            color:$accor-h4-color;
+                                        }
+                                        h6{margin:10px;
+                                            font-size:$accor-h6-size;
+                                            color:$accor-h4-color;
+                                            position: relative;
+                                            cursor:pointer;
+                                            color:#fff;
+                                            span{
+                                                position: absolute;
+                                                right:4px;
+                                                font-size:14px;
+                                            
+                                            }
+                                        }
+                                        .content{
+                                            
+                                            
+                                            p{
+                                                
+                                                color:white;
+                                                
+                                            }
+                                        }
+                                        
+                                        
+                                        .border{
+                                            background:#2250fc;
+                                            margin-top:16px;
+                                            border-radius:4px;
+                                        }
+                                    
+                                        
+                                        }
+                    }
+        }
+        
+    }
+        
+}}

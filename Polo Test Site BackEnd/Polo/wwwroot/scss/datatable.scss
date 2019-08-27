@@ -1,0 +1,58 @@
+@import "partials/variables";
+@import "partials/header";
+@import "partials/footer";
+
+main{
+    #accordion-title{
+        position: relative;
+            background:#f8f9fa;
+            height: 300px;
+            .title{
+                position: absolute;
+                left:40%;
+                top:35%;
+                h6{
+                    font-size:13px;
+                    color:#565656;
+                }
+                a{
+                    color:#565656;
+                    font-size:12px;
+                    &:hover{
+                        text-decoration: none;
+                        color:#007bff;
+                    }
+                }  
+                span{
+                    color:#565656;
+                    font-size:12px;
+                }
+            }
+        }
+    #pagemenu{
+        padding: 16px;
+        border:thin solid silver;
+        .nav-link{
+            color:black;
+        &:hover{
+            color:#007bff;
+        }}
+           
+            .dropdown-item{
+                color:black;
+                &:hover{
+                    color:#007bff;
+                }
+            }
+        
+        
+           a{
+               font-size: 13px;
+               color:#5656;
+               font-weight:500;
+           }
+       }
+       .margin-5{
+           margin-top:5%;
+       }
+}

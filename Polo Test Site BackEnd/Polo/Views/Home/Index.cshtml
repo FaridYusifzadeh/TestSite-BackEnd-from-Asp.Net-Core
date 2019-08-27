@@ -1,0 +1,385 @@
+﻿@model HomeModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+    <main>
+        <section id="slider">
+            <div class="main-carousel">
+                @foreach (var slider in Model.Sliders)
+                {
+                    <div id="slide-1" class="carousel-cell og" data-id="1">
+                        <div class="bg" style="background:url('../img/@slider.Image') no-repeat center"></div>
+                        <div class="text">
+                            <h1>@slider.Title</h1>
+                            <p>
+                                @slider.Description
+                            </p>
+                            <a href="#welcome" class="btn scroll-to fadeInUp" style="animation-duration: 600ms;">Explore more</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <section id="welcome">
+            <div class="container">
+                <div class="title text-center">
+                    <h1>@Model.Descriptions.ElementAt(1).Title</h1>
+                    <hr>
+                    <h5>@Model.Descriptions.ElementAt(1).Descp</h5>
+                </div>
+                <img src="~/img/@Model.Welcomes.First().Image" alt="">
+            </div>
+        </section>
+        <section id="we-do">
+            <div class="container">
+                <div class="title">
+                    <h1>@Model.Descriptions.ElementAt(1).Title</h1>
+                    <hr>
+                    <h5>@Model.Descriptions.ElementAt(1).Descp</h5>
+                </div>
+                <div class="row">
+                    @foreach (var item in Model.WhatWeDos)
+                    {
+                    <div class="col-4">
+                        <h6>@item.Title</h6>
+                        <p>
+                            @item.Description
+                        </p>
+                    </div>
+                    }
+                    
+                    
+                </div>
+            </div>
+
+        </section>
+        <section id="recent-work">
+            <div class="container">
+                <div class="title">
+                    <h1>@Model.Descriptions.ElementAt(2).Title</h1>
+                    <hr>
+                    <h5>@Model.Descriptions.ElementAt(2).Descp</h5>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    @foreach (var item in Model.OurWorks)
+                    {
+                        <div class="col-3"><img src="~/img/@item.Image" alt=""></div>
+                    }
+                </div>
+            </div>
+
+
+        </section>
+        <section id="services">
+            <div class="container">
+                <div class="title text-center">
+
+                    <h1>@Model.Descriptions.ElementAt(2).Title</h1>
+                    <hr>
+                    <h5>@Model.Descriptions.ElementAt(2).Descp</h5>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-4">
+
+                        <span><i class="fa fa-plug"></i></span>
+                        <div class="content">
+                            <h5>Powerful template</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte <br>adipiscing elit. Suspendisse<br> condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-4">
+                        <span><i class="fa fa-desktop"></i></span>
+                        <div class="content">
+                            <h5>Flexible Layouts</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte <br>adipiscing elit. Suspendisse<br> condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <span><i class="fa fa-cloud"></i></span>
+                        <div class="content">
+                            <h5>Retina Ready</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse <br>condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <span><i class="far fa-lightbulb"></i></span>
+                        <div class="content">
+                            <h5>Fast processing</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse<br> condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <span><i class="fa fa-trophy"></i></span>
+                        <div class="content ">
+                            <h5>Unlimited Colors</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse<br> condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <span><i class="fa fa-thumbs-up"></i></span>
+                        <div class="content">
+                            <h5>Premium Sliders</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse<br> condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <span><i class="fa fa-rocket"></i></span>
+                        <div class="content">
+                            <h5>Modern Design</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse<br> condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4 ">
+                        <span><i class="fa fa-flask"></i></span>
+                        <div class="content">
+                            <h5>Clean Modern Code</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse<br> condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <span><i class="fa fa-umbrella"></i></span>
+                        <div class="content">
+                            <h5>Free Updates & Support</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consecte<br> adipiscing elit. Suspendisse<br> condimentum porttitor
+                                cursumus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="results">
+            <div class="cover"></div>
+            <div class="container">
+
+                <div class="row text-center">
+                    <div class="col-3">
+                        <div class="lines-code">
+                            <span><i class="fa fa-3x fa-code"></i></span>
+                            <h1 class="first-count" data-count="12416">12416</h1>
+                            <hr>
+                            <p>LINES OF CODE</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="cofe">
+                            <span><i class="fa fa-3x fa-coffee"></i></span>
+                            <h1 class="first-count" data-count="365">365</h1>
+                            <hr>
+                            <p>CUPS OF COFFEE</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="finish-project">
+                            <span><i class="fa fa-3x fa-rocket"></i></span>
+                            <h1 class="first-count" data-count="114">114</h1>
+                            <hr>
+                            <p>FINISHED PROJECTS</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="satisfied-clients">
+                            <span></span>
+                            <h1 class="first-count" data-count="14825">14825</h1>
+                            <hr>
+                            <p>SATISFIED CLIENTS</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <section id="our-blog">
+            <div class="container">
+                <div class="title">
+                    <h1>@Model.Descriptions.ElementAt(3).Title</h1>
+                    <hr>
+                    <h5>@Model.Descriptions.ElementAt(3).Descp</h5>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+
+                        <div class="on-img"><img src="~/img/our-blog1.jpg" alt=""><b>Lifestyle</b></div>
+                        <h6>Jan 21, 2017  33 Comments</h6>
+                        <h5>Standard post with a single<br> image</h5>
+                        <p>
+                            Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor
+                            porta feugiat. Fusce at velit id ligula pharetra laoreet.
+                        </p>
+                        <a href="">READ MORE <span><i class="fa fa-arrow-right"></i></span></a>
+                    </div>
+                    <div class="col-4">
+                        <div class="on-img"><img src="~/img/our-blog2.jpg" alt=""><b>Science</b></div>
+                        <h6>Jan 21, 2017 33 Comments</h6>
+
+                        <h5>Standard post with a single<br> image</h5>
+                        <p>
+                            Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor
+                            porta feugiat. Fusce at velit id ligula pharetra laoreet.
+                        </p>
+                        <a href="">READ MORE <span><i class="fa fa-arrow-right"></i></span></a>
+                    </div>
+                    <div class="col-4">
+                        <div class="on-img"> <img src="~/img/our-blog3.jpg" alt=""> <b>Science</b></div>
+                        <h6>Jan 21, 2017 33 Comments</h6>
+                        <h5>Standard post with a single<br> image</h5>
+                        <p>
+                            Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor
+                            porta feugiat. Fusce at velit id ligula pharetra laoreet.
+                        </p>
+                        <a href="">READ MORE <span><i class="fa fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="clients">
+            <div class="container text-center">
+                <div class="title">
+                    <h1>@Model.Descriptions.ElementAt(4).Title</h1>
+                    <hr>
+                    <h5>@Model.Descriptions.ElementAt(4).Descp</h5>
+                </div>
+                <div class="brand-slider">
+                    <div class="row">
+                        <div class="container">
+                            <section class="customer-logos slider">
+                                <div class="slide"><img src="~/img/client1.png"></div>
+                                <div class="slide"><img src="~/img/client2.png"></div>
+                                <div class="slide"><img src="~/img/client3.png"></div>
+                                <div class="slide"><img src="~/img/client4.png"></div>
+                                <div class="slide"><img src="~/img/client5.png"></div>
+                                <div class="slide"><img src="~/img/client6.png"></div>
+                                <div class="slide"><img src="~/img/client7.png"></div>
+                                <div class="slide"><img src="~/img/client8.png"></div>
+                                <div class="slide"><img src="~/img/client9.png"></div>
+
+                            </section>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section id="our-team" style="margin-top:150px">
+            <div class="container text-center">
+                <div class="title">
+                    <h1>@Model.Descriptions.ElementAt(5).Title</h1>
+                    <hr>
+                    <h5>@Model.Descriptions.ElementAt(5).Descp</h5>
+
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="~/img/team1.jpg" alt="">
+                        <div class="content">
+                            <h6>Alea Smith</h6>
+                            <b>Software Developer</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+                            <div class="icons">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-instagram"></i></span>
+                                <span><i class="far fa-envelope"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="~/img/team2.jpg" alt="">
+                        <div class="content">
+                            <h6>Ariol Doe</h6>
+                            <b>Software Developer</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+                            <div class="icons">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-instagram"></i></span>
+                                <span>
+                                    <i class="far fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="~/img/team3.jpg" alt="">
+                        <div class="content">
+                            <h6>Emma Ross</h6>
+                            <b>Software Developer</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+                            <div class="icons">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-instagram"></i></span>
+                                <span><i class="far fa-envelope"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="~/img/team4.jpg" alt="">
+                        <div class="content">
+                            <h6>Victor Loda</h6>
+                            <b>Software Developer</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+                            <div class="icons">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-instagram"></i></span>
+                                <span><i class="far fa-envelope"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+

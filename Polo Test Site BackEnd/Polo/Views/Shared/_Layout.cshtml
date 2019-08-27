@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/scss/carousel.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="~/scss/style.css">
+
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+
+
+
+
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"><img src="img/brand.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link portf" href="#">Layout</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Topbar</a> </li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Header</a></li>
+                                <li class="dropdown-submenu"><a class="dropdown-item" href="#">Main Menu</a></li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Page Title</a> </li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Page Menu</a> </li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Sidebars</a> </li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Footers</a> </li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Options</a> </li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Layout Demos</a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Features
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Sliders</a> </li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Widgets</a></li>
+                                <li class="dropdown-submenu">   <a class="dropdown-item" href="#">Page Loaders</a></li>
+                                <li class="dropdown-submenu">   <a class="dropdown-item" href="#">Modal Auto Open</a></li>
+                                <li class="dropdown-submenu">   <a class="dropdown-item" href="#">Cookie Notify</a></li>
+                                <li class="dropdown-submenu">   <a class="dropdown-item" href="#">Menu Labels</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link element" href="#">Elements</a>
+                            <ul class="dropdown-menu lrg-menu" aria-labelledby="navbarDropdown">
+                                <ul class="  border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+
+                                <ul class=" border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+                                <ul class="  border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+                                <ul class=" border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+
+
+                            </ul>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link pg" href="#">Pages</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Action</a> </li>
+                                <li class="dropdown-submenu"> <a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li class="dropdown-submenu">   <a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link portf" href="#">Portfolio</a>
+                            <ul class="dropdown-menu lrg-menu" aria-labelledby="navbarDropdown">
+                                <ul class="  border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+
+                                <ul class=" border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+                                <ul class="  border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link blog" href="#">Blog</a>
+                            <ul class="dropdown-menu lrg-menu" aria-labelledby="navbarDropdown">
+
+
+                                <ul class=" border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+                                <ul class="  border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+                                <ul class=" border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link shop" href="#">Shop</a>
+                            <ul class="dropdown-menu lrg-menu" aria-labelledby="navbarDropdown">
+                                <ul class="  border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+
+                                <ul class="  border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+                                <ul class=" border-right">
+                                    <li> <b>Pages 1</b></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Make an Appointment</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Team Member Profile</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Maintenance</a></li>
+
+                                </ul>
+
+
+                            </ul>
+                        </li>
+                        <a class="nav-item nav-link search" href="#"> <span><i class="fas fa-search"></i></span></a>
+                        <a class="nav-item nav-link cart" href="#"><span><i class="fas fa-shopping-cart"></i></span></a>
+                        <a class="nav-item nav-link flag" href="#"><span><i class="far fa-flag"></i></span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    @RenderBody()
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="content">
+                            <h6>POLO HTML5 TEMPLATE</h6>
+                            <p>
+                                Built with love in Fort Worth, Texas, USA<br>
+                                All rights reserved. Copyright © 2019. INSPIRO.
+
+                            </p>
+                            <a href="">PURCHASE NOW</a>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-3">
+                                <h6>
+                                    DISCOVER
+                                </h6>
+                                <ul>
+                                    <li> <a href="">Features</a></li>
+                                    <li> <a href="">Layouts</a></li>
+                                    <li> <a href="">Corporate</a></li>
+                                    <li> <a href="">Updates</a></li>
+                                    <li> <a href="">Pricing</a></li>
+                                    <li> <a href="">Customers</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <h6>FEATURES</h6>
+                                <ul>
+                                    <li> <a href="">Layouts</a></li>
+                                    <li> <a href="">Headers</a></li>
+                                    <li> <a href="">Widgets</a></li>
+                                    <li> <a href="">Footers</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="col-3">
+                                <h6>PAGES</h6>
+                                <ul>
+                                    <li> <a href="">Portfolio</a></li>
+                                    <li> <a href="">Blog</a></li>
+                                    <li> <a href="">Shop</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <h6>SUPPORT</h6>
+                                <ul>
+                                    <li><a href="">Help Desk</a></li>
+                                    <li><a href="">Documentation</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="end ">
+            <div class="container text-center">
+                © 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved. INSPIRO
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="~/js/script.js"></script>
+
+</body>
+
+</html>

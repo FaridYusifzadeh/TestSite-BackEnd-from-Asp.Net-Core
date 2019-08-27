@@ -1,0 +1,278 @@
+header {
+  transition: 0.5s ease all; }
+  header nav {
+    height: 70px; }
+    header nav img {
+      width: 130px;
+      height: 80px; }
+    header nav .navbar-nav .dropdown:hover .dropdown-menu {
+      display: block; }
+    header nav .navbar-nav .dropdown:hover .lrg-menu {
+      margin-left: -600px;
+      width: 1080px; }
+      header nav .navbar-nav .dropdown:hover .lrg-menu ul {
+        text-decoration: none;
+        float: left; }
+        header nav .navbar-nav .dropdown:hover .lrg-menu ul li {
+          text-decoration: none; }
+          header nav .navbar-nav .dropdown:hover .lrg-menu ul li a {
+            text-decoration: none; }
+    header nav .navbar-nav .nav-link {
+      color: black !important;
+      font-family: Poppins,Helvetica,Arial,sans-serif;
+      padding: 10px 12px;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: .6px;
+      border-radius: 0;
+      border-width: 0;
+      border-style: solid;
+      border-color: transparent;
+      transition: all .3s ease;
+      line-height: normal; }
+      header nav .navbar-nav .nav-link:hover {
+        color: #007bff !important; }
+    header nav .navbar-nav .dropdown-submenu a {
+      color: black !important; }
+      header nav .navbar-nav .dropdown-submenu a:hover {
+        color: #007bff !important; }
+
+footer {
+  background: #f7f9fb; }
+  footer .container .row .content {
+    margin-top: 70px; }
+    footer .container .row .content a {
+      background: #007bff !important;
+      color: white;
+      padding: 6px;
+      border-radius: 6px;
+      font-size: 13px; }
+      footer .container .row .content a:hover {
+        text-decoration: none !important;
+        background: #2250fc !important; }
+    footer .container .row .content h6 {
+      color: #565656;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 600; }
+    footer .container .row .content p {
+      font-size: 13px;
+      color: #777;
+      margin: 12px 0 12px 0; }
+  footer .container .row .col-7 a {
+    text-decoration: none !important; }
+    footer .container .row .col-7 a:hover {
+      color: #007bff; }
+  footer .container .col-3 {
+    margin-top: 70px; }
+    footer .container .col-3 h6 {
+      color: #565656;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 600; }
+    footer .container .col-3 ul {
+      padding: 0;
+      text-align: start; }
+      footer .container .col-3 ul li {
+        list-style: none;
+        line-height: 42px;
+        font-size: 14px; }
+        footer .container .col-3 ul li a {
+          color: #616060e5;
+          margin: 0; }
+
+header a {
+  color: black !important; }
+
+main #accordion-title {
+  position: relative;
+  background: #f8f9fa;
+  height: 300px; }
+  main #accordion-title .title {
+    position: absolute;
+    left: 40%;
+    top: 35%; }
+    main #accordion-title .title h6 {
+      font-size: 13px;
+      color: #565656; }
+    main #accordion-title .title a {
+      color: #565656;
+      font-size: 12px; }
+      main #accordion-title .title a:hover {
+        text-decoration: none;
+        color: #007bff; }
+    main #accordion-title .title span {
+      color: #565656;
+      font-size: 12px; }
+main #accordion .container .row {
+  margin-top: 20px; }
+  main #accordion .container .row .left-nav label {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase; }
+  main #accordion .container .row .left-nav ul {
+    padding: 0px !important; }
+    main #accordion .container .row .left-nav ul li {
+      list-style: none; }
+      main #accordion .container .row .left-nav ul li a {
+        color: #565656;
+        font-size: 14px; }
+        main #accordion .container .row .left-nav ul li a:hover {
+          text-decoration: none;
+          color: #2250fc; }
+  main #accordion .container .row .accordions {
+    margin-bottom: 70px; }
+    main #accordion .container .row .accordions .content {
+      display: none; }
+      main #accordion .container .row .accordions .content p {
+        font-size: 13.6px;
+        font-weight: 400;
+        color: #777;
+        margin-left: 10px; }
+    main #accordion .container .row .accordions h6 {
+      user-select: none; }
+    main #accordion .container .row .accordions hr {
+      margin-top: 60px; }
+    main #accordion .container .row .accordions .default h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1f1f1f; }
+    main #accordion .container .row .accordions .default h6 {
+      margin: 10px;
+      font-size: 13px;
+      color: #1f1f1f;
+      position: relative;
+      cursor: pointer; }
+      main #accordion .container .row .accordions .default h6 span {
+        position: absolute;
+        right: 4px;
+        font-size: 14px; }
+    main #accordion .container .row .accordions .default .border {
+      margin-top: 16px;
+      border-radius: 4px; }
+    main #accordion .container .row .accordions .shadow-acc {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .shadow-acc h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .shadow-acc h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer; }
+        main #accordion .container .row .accordions .shadow-acc h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .shadow-acc .border {
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .with-icon {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .with-icon h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .with-icon h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer; }
+        main #accordion .container .row .accordions .with-icon h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .with-icon .border {
+        background: white;
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .simple {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .simple h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .simple h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer; }
+        main #accordion .container .row .accordions .simple h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .simple .border {
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .flat {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .flat h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .flat h6 {
+        font-size: 13px;
+        margin-bottom: 20px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer; }
+        main #accordion .container .row .accordions .flat h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .flat .border {
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .dark {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .dark h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .dark h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer;
+        color: #fff; }
+        main #accordion .container .row .accordions .dark h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .dark .content p {
+        color: white; }
+      main #accordion .container .row .accordions .dark .border {
+        background: #333;
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .with-theme {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .with-theme h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .with-theme h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer;
+        color: #fff; }
+        main #accordion .container .row .accordions .with-theme h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .with-theme .content p {
+        color: white; }
+      main #accordion .container .row .accordions .with-theme .border {
+        background: #2250fc;
+        margin-top: 16px;
+        border-radius: 4px; }
+
+/*# sourceMappingURL=accordeon.css.map */
